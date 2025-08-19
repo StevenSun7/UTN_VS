@@ -11,11 +11,11 @@ Vamos a comentar 2 alternativas, una utilizando Docker y otra instalando todos l
 
 👉 En el caso de Windows, seleccionar los instaladores que se encuentran en la pestaña "Prebuilt Installer"
 
-![Instalador de Windows](config/win_1.png)
+![Instalador de Windows](Clase2-12082025/config/win_1.png)
 
 👉 En el caso de MacOs o Linux, seleccionar la pestaña "Package Manager" y seleccionar "NVM" en el último combo. Luego copiar y ejecutar en una terminal los comandos que se muestran.
 
-![Instalador de Linux o MacOs](config/lin_1.png)
+![Instalador de Linux o MacOs](Clase2-12082025/config/lin_1.png)
 
 ⚠️ **En todos los casos seleccionar alguna versión estable (LTS)**
 
