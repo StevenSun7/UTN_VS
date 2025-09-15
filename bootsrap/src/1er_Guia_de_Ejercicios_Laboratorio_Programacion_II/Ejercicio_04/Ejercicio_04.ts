@@ -8,3 +8,7 @@ horario.
 ● Crear una instancia y asignarle valores.
 ● Mostrar por pantalla los valores. */
 
+class Cine {
+    private pelicula: string;
+    private horario: number;
+}
