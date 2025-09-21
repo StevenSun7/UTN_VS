@@ -5,7 +5,7 @@
 ● Crear una instancia y asignarle valores; notar que el atributo privado no está disponible para la asignación de valores.
 ● Mostrar por pantalla los valores asignados. */
 
-class VehiculoModerno {
+class Vehiculo {
     // Atributos se declaran directamente en el constructor
     constructor(
         public marca: string,
@@ -22,5 +22,5 @@ class VehiculoModerno {
     }
 }
 
-const autoModerno = new VehiculoModerno("Ford", "Focus", "XYZ789");
+const autoModerno = new Vehiculo("Peugeot", "208", "XYZ789");
 autoModerno.mostrarInfo();
