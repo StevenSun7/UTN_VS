@@ -1,0 +1,11 @@
+.env
+.env.local
+.env.production
+
+.vscode
+node_modules
+Ruta de Instalacion Node.rtfd
+Ruta de Instalacion Node.rtfd/TXT.rtf
+package-lock.json
+package.json
+tsconfig.json
