@@ -9,8 +9,10 @@ esto ocurre. */
 
 class Articulo {
     // Atributos privados (solo accesibles dentro de la clase)
-    private marca: string;
-    private modelo: string;
+    constructor(
+    private marca: string,
+    private modelo: string,
+    ) {}
 
     // Métodos públicos para asignar valores (setters)
     public setMarca(marca: string): void {
@@ -37,11 +39,11 @@ class Articulo {
 }
 
 // Creación de una instancia
-const miArticulo = new Articulo();
+const miArticulo = new Articulo("Marca", "Modelo");
 
 // Asignación de valores mediante métodos públicos
-miArticulo.setMarca("Samsung");
-miArticulo.setModelo("Galaxy S23");
+miArticulo.setMarca("iPhone");
+miArticulo.setModelo("17 Pro Max");
 
 // Intentar mostrar valores directamente (generará error)
 console.log("=== INTENTO DE ACCESO DIRECTO ===");
