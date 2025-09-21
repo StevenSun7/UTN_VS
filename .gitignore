@@ -1,11 +1,96 @@
+# ================================
+# ARCHIVOS DE ENTORNO Y CREDENCIALES
+# ================================
 .env
 .env.local
 .env.production
+.env.development
+.env.test
+*.key
+*.pem
+*.crt
+config/secrets.yml
+credentials.json
+firebase-key.json
 
+# ================================
+# DEPENDENCIAS Y PAQUETES
+# ================================
+node_modules/
+vendor/
+bower_components/
+jspm_packages/
+*.gem
+*.egg
+
+# ================================
+# ARCHIVOS DE LOGS
+# ================================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ================================
+# ARCHIVOS DEL SISTEMA
+# ================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# ================================
+# ARCHIVOS COMPILADOS
+# ================================
+dist/
+build/
+out/
+*.class
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.out
+*.pyc
+__pycache__/
+
+# ================================
+# ARCHIVOS DE IDE/EDITORES
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ================================
+# ARCHIVOS TEMPORALES
+# ================================
+*.tmp
+*.temp
+.cache/
+
+# ================================
+# ARCHIVOS DE BASE DE DATOS
+# ================================
+*.sqlite
+*.db
+*.mdb
+*.dump
+
+# ================================
+# ARCHIVOS ESPECÍFICOS DE TU PROYECTO
+# ================================
+# Agrega aquí tus archivos específicos
 .vscode
 node_modules
-Ruta de Instalacion Node.rtfd
-Ruta de Instalacion Node.rtfd/TXT.rtf
+Ruta_de_Instalacion_Node.rtfd
+jspm_packages
 package-lock.json
 package.json
+tsconfig copy.json
 tsconfig.json
