@@ -9,13 +9,14 @@ Vamos a comentar 2 alternativas, una utilizando Docker y otra instalando todos l
 
 1. Ingresar a [NodeJs - Descargas](https://nodejs.org/en/download/) y seleccionar según la plataforma en la que nos encontremos el instalador que mejor se adapte a nuestro sistema operativo.
 
-👉 En el caso de Windows, seleccionar los instaladores que se encuentran en la pestaña "Prebuilt Installer"
-
-![Instalador de Windows](bootsrap/config/win_1.png)
-
 👉 En el caso de MacOs o Linux, seleccionar la pestaña "Package Manager" y seleccionar "NVM" en el último combo. Luego copiar y ejecutar en una terminal los comandos que se muestran.
 
-![Instalador de Linux o MacOs](bootsrap/config/lin_1.png)
+![Instalador de Linux o MacOs](Configuracion/lin_1.png)
+
+👉 En el caso de Windows, seleccionar los instaladores que se encuentran en la pestaña "Prebuilt Installer"
+
+![Instalador de Windows](Configuracion/win_1.png)
+
 
 ⚠️ **En todos los casos seleccionar alguna versión estable (LTS)**
 
