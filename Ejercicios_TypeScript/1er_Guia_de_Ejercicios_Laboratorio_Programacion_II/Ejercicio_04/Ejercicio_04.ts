@@ -9,6 +9,20 @@ horario.
 ● Mostrar por pantalla los valores. */
 
 class Cine {
-    private pelicula: string;
-    private horario: number;
+
+    constructor(     
+    private pelicula: string,
+    private horario: number,
+    ) {}
+
+    //Métodos públicos para asignar valor y recuperar valor
+    public setPelicula(pelicula: string): void {
+        this.pelicula = pelicula;
+    }
+
+    public setHorario(horario: number): void {
+        this.horario = horario;
+    }
+
+
 }
