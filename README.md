@@ -11,7 +11,7 @@ Vamos a comentar 2 alternativas, una utilizando Docker y otra instalando todos l
 
 👉 En el caso de MacOs o Linux, seleccionar la pestaña "Package Manager" y seleccionar "NVM" en el último combo. Luego copiar y ejecutar en una terminal los comandos que se muestran.
 
-![Instalador de Linux o MacOs](Configuracion/lin_1.png)
+![Instalador de MacOs o Linux](Configuracion/Mac-Linux.png)
 
 👉 En el caso de Windows, seleccionar los instaladores que se encuentran en la pestaña "Prebuilt Installer"
 
